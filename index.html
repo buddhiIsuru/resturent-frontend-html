@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+
+    <title>Tasty Food</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="row ms-0 me-0" style="width: 100%">
+        <div class="col-8 col-md-6 ps-0 pe-0">
+          <div class="logo">
+            <p class="logo-name">Tasty Food</p>
+            <p class="tagline">Grate Taste,Grate Choosing</p>
+          </div>
+        </div>
+        <div class="col-4 col-md-6 ps-0 pe-0 text-right">
+          <div class="cart-button-section">
+            <button type="button" class="btn position-relative cart-button">
+              <img src="./assests/icons/shopping-cart.png" alt="cart" />
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row ms-0 me-0" style="">
+        <div class="col-12 col-md-6">
+          <div class="title-section">
+            <p class="title">
+              Delicious 
+              Food is Waiting
+              For You
+            </p>
+            <button
+              type="button"
+              class="btn position-relative view-menu-button"
+            >
+              View Menu
+              <img
+                class="arrow-right"
+                src="./assests/icons/chevron-right-black.png"
+                alt="chevron-right"
+              />
+            </button>
+            <div class="food-icon-section">
+              <button
+                type="button"
+                class="btn position-relative food-icon-button"
+                style="margin-left: 0"
+              >
+                <img
+                  class="food-icon"
+                  src="./assests/icons/hamburger.png"
+                  alt="food-hamburger"
+                />
+              </button>
+              <button
+                type="button"
+                class="btn position-relative food-icon-button"
+              >
+                <img
+                  class="food-icon"
+                  src="./assests/icons/confectionery.png"
+                  alt="food-confectionery"
+                />
+              </button>
+              <button
+                type="button"
+                class="btn position-relative food-icon-button"
+              >
+                <img
+                  class="food-icon"
+                  src="./assests/icons/bread.png"
+                  alt="food-bread"
+                />
+              </button>
+              <button
+                type="button"
+                class="btn position-relative food-icon-button"
+              >
+                <img
+                  class="food-icon"
+                  src="./assests/icons/beer.png"
+                  alt="food-beer"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img
+            class="banner-image"
+            src="./assests/food/DeliciousChickenGoatCheesedishremovebg.png"
+            alt="chicken-tikka-masala"
+          />
+        </div>
+      </div>
+
+      <div class="row ms-0 me-0" style="padding: 5% 0">
+        <div class="col-12 col-md-7">
+          <div class="row ms-0 me-0">
+            <div class="card item-card" style="width: 45%; margin-right: 10%">
+              <img
+                src="./assests/food/DeliciousChickenGoatCheesedishremovebg.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Tikka Masala</h5>
+                <p class="card-text">Spicy with garlic</p>
+                <h4 class="price-tag">$ 10.25</h4>
+                <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+              </div>
+            </div>
+
+            <div class="card item-card" style="width: 45%">
+              <img
+                src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Tikka Masala</h5>
+                <p class="card-text">Spicy with garlic</p>
+                <h4 class="price-tag">$ 10.25</h4>
+                <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="sub-title-section">
+            <p class="sub-title">
+              We have Delicious Food<br />
+              tasty Food in town<br />
+            </p>
+            <p class="sub-title-description">
+              We have Delicious Food We have Delicious Food We have Delicious
+              Food We have Delicious Food We have Delicious Food We have
+              Delicious Food tasty Food in town tasty Food in town tasty Food in
+              town tasty Food in town tasty Food in town tasty Food in town
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row ms-0 me-0" style="padding: 5% 0">
+        <div class="col-12 col-md-8">
+          <div class="sub-title-section" style="margin-left: 0">
+            <p class="sub-title">
+              We have Delicious Food<br />
+              tasty Food in town<br />
+            </p>
+            <p class="sub-title-description">
+              We have Delicious Food We have Delicious Food We have Delicious
+              Food We have Delicious Food We have Delicious Food We have
+              Delicious Food tasty Food in town tasty Food in town tasty Food in
+              town tasty Food in town tasty Food in town tasty Food in town
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="./assests/food/DeliciousChickenGoatCheesedishremovebg.png"
+            class="card-img-top"
+            alt="..."
+          />
+        </div>
+      </div>
+
+      <div class="row ms-0 me-0" style="padding: 5% 0">
+        <div class="col-12 col-md-7">
+          <div class="row ms-0 me-0">
+            <div class="card app-card" style="width: 45%; margin-right: 10%">
+              <img
+                src="./assests/app/OnlineFoodOrdering1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <!-- <div class="card-body">
+                <h5 class="card-title">Chicken Tikka Masala</h5>
+                <p class="card-text">Spicy with garlic</p>
+                <h4 class="price-tag">$ 10.25</h4>
+                <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+              </div> -->
+            </div>
+
+            <div class="card app-card" style="width: 45%">
+              <img
+                src="./assests/app/OnlineFoodOrdering2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <!-- <div class="card-body">
+                <h5 class="card-title">Chicken Tikka Masala</h5>
+                <p class="card-text">Spicy with garlic</p>
+                <h4 class="price-tag">$ 10.25</h4>
+                <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="sub-title-section">
+            <p class="sub-title">App is Available</p>
+            <p class="sub-title-description">
+              We have Delicious Food We have Delicious Food We have Delicious
+              Food We have Delicious Food We have Delicious Food We have
+              Delicious Food tasty Food in town tasty Food in town tasty Food in
+              town tasty Food in town tasty Food in town tasty Food in town
+            </p>
+            <div class="row ms-0 me-0">
+              <a href="#" class="btn btn-app">
+                <img
+                  src="./assests/icons/apple-logo.png"
+                  class="play-store-icon"
+                  alt="..."
+                />
+                <div class="desc-section">
+                  <span> Download on the</span>
+                  <p>Apple Store</p>
+                </div>
+              </a>
+              <a href="#" class="btn btn-app">
+                <img
+                  src="./assests/icons/google-play.png"
+                  class="play-store-icon"
+                  alt="..."
+                />
+                <div class="desc-section">
+                  <span> GET IN ON </span>
+                  <p>Google Play</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="myCarousel"
+        class="carousel slide container"
+        data-bs-ride="carousel"
+      >
+        <div class="row ms-0 me-0">
+          <div class="col-12 col-md-6">
+            <p class="sub-title">Menu</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="menu-button-section">
+              <button
+                class="btn"
+                data-bs-target="#myCarousel"
+                data-bs-slide="prev"
+              >
+                <img
+                  class="ms-0 w-100"
+                  src="./assests/icons/chevron-left.png"
+                  alt="chevron-right"
+                />
+              </button>
+              <button
+                class="btn"
+                data-bs-target="#myCarousel"
+                data-bs-slide="next"
+              >
+                <img
+                  class="ms-0 w-100"
+                  src="./assests/icons/chevron-right-black.png"
+                  alt="chevron-right"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-inner w-100">
+          <div class="carousel-item active">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-md-3">
+              <div class="card menu-item-card">
+                <img
+                  src="./assests/food/CookCapture_Food_Styling-removebg.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h6 class="card-title">Chicken Tikka Masala</h6>
+                  <p class="card-text">Spicy with garlic</p>
+                  <h4 class="price-tag">$ 10.25</h4>
+                  <a href="#" class="btn btn-shopping-cart"> add to cart </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="my-5 mx-5">
+          <hr />
+        </div>
+        <div class="mt-5 mb-3">
+          <div class="text-center w-100">
+            <p class="logo-name">Tasty Food</p>
+            <p class="tagline">Grate Taste,Grate Choosing</p>
+          </div>
+        </div>
+        <div class="text-center w-100 mb-5">
+          <button
+            type="button"
+            class="btn position-relative food-icon-button bg-black"
+            style="margin-left: 0"
+          >
+            <img
+              class="food-icon"
+              src="./assests/icons/icons8-facebook-64.png"
+              alt="food-hamburger"
+            />
+          </button>
+          <button type="button" class="btn position-relative food-icon-button bg-black">
+            <img
+              class="food-icon"
+              src="./assests/icons/icons8-instagram-100.png"
+              alt="food-confectionery"
+            />
+          </button>
+          <button type="button" class="btn position-relative food-icon-button bg-black">
+            <img
+              class="food-icon"
+              src="./assests/icons/icons8-twitter-90.png"
+              alt="food-bread"
+            />
+          </button>
+          <button type="button" class="btn position-relative food-icon-button bg-black">
+            <img
+              class="food-icon"
+              src="./assests/icons/icons8-pinterest-100.png"
+              alt="food-beer"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(".carousel .carousel-item").each(function () {
+        var minPerSlide = 4;
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(":first");
+        }
+        next.children(":first-child").clone().appendTo($(this));
+
+        for (var i = 0; i < minPerSlide; i++) {
+          next = next.next();
+          if (!next.length) {
+            next = $(this).siblings(":first");
+          }
+          next.children(":first-child").clone().appendTo($(this));
+        }
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
